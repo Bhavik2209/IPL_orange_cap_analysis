@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_csv(r'C:\Users\SVI\Desktop\orange_cap\orange_cap.csv')
+df = pd.read_csv('orange_cap.csv')
 df.drop(columns='Span', inplace=True)
 
 # Define Player class and analysis functions
